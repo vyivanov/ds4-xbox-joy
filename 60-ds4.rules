@@ -1,0 +1,2 @@
+KERNEL=="event*", ATTRS{name}=="Wireless Controller", ACTION=="add", RUN+="/home/vivanov/Dev/github/ds4-xbox-joy/ds4.sh %n"
+KERNEL=="event*", ATTRS{name}=="Microsoft X-Box 360 pad", ACTION=="add", SYMLINK+="input/by-id/usb-Sony_DS4_Joystick-xboxdrv-event"
